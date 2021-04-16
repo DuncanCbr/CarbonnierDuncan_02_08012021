@@ -483,4 +483,139 @@ footer
 {
     padding-top: 10px;
 }
- 
+
+@media (max-width: 1589px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    .margin_footer
+    {
+       margin-right: 10%;
+    }
+}
+@media (max-width: 1024px)
+{
+    body
+    {
+
+        width: auto;
+    }
+
+    #filter
+    {
+        padding-bottom: 30px;
+    }
+   
+    section
+    {
+        flex-direction: column;
+    }
+    
+    section aside
+    {
+        order: 1;
+    }
+
+    section article
+     {
+        order: 2;
+     }
+
+     aside
+     {
+         margin-left: 0;
+     }
+
+     #placement_aside
+     {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     }
+
+     .article_aside
+     {
+        flex: 25%;
+        height: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+     }
+
+     article
+     {
+         flex: 1;
+         width: auto;
+     }
+
+     #title_popularity
+     {
+         justify-content: space-between;
+         padding-left: 20px;
+         padding-right: 20px;
+     }
+
+    .activities_img_solo
+    {
+        width: 100%;
+        height: 75%;
+        object-fit: cover;
+    }
+
+    #activities
+    {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2,(minmax(100px)));
+        grid-template-rows: 50px 200px 200px 200px;
+    }
+    
+    #activity
+    {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    }
+
+    #vieux_port
+    {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #fort_de_pommègues
+    {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    #iles_de_frioul
+    {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    #calanques
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    #notre_dame
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    #Parc_longchamp
+    {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+
+    .margin_footer
+    {
+       margin-right: 5%;
+    }
+}
