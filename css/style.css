@@ -316,3 +316,55 @@ article
 {
     margin-left: 10px;
 }
+
+aside
+{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.dimension_img_aside
+{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+#placement_aside
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#title_popularity
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+;
+}
+
+.article_aside
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(228, 222, 222) ;
+    width: 80%;
+    height: 130px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
