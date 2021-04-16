@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Reservia</title>
+    </head>
+    
+
+    <body>
+        <div id="marge_body">
+            <header class="d-flex">
+                <div class="logo">
+                    <img src="images/logo/Reservia.svg" alt="logo_reservia">
+                </div>
+            <!-- Navigation -->
+                <nav class="d-flex">      
+                    <ul class="d-flex margin_nav">
+                        <li id="padding_nav_hebergements"><a href="">Hébergements</a></li>
+                        <li id="padding_nav_act"><a href="">Activités</a></li>
+                    </ul>
+                </nav>
+                <div id="SignUp">
+                    <a href="" class="margin_nav">S'inscrire</a>
+                </div>
+            </header>
+            <div id="tittle">
+                Trouvez votre hébergement pour des vacances de rêve
+            </div>
+            <div id="subtittle">
+                En plein centre ville ou en pleine nature
+            </div>
+            <div id="box_search_zone">
+                <form method="post" action="traitement.php" class="d-flex formulaire">
+                    <label for="seach_zone"> <i class="fas fa-map-marker-alt" id="icon_localisation"></i></label>
+                    <div class="d-flex" id="border_search_button">
+                        <input type="search" name="search_zone" id="search_zone" value="Marseille, France"/>
+                        <button id="search_button" class="flex_center"><span class="search">Rechercher</span><i class="fas fa-search loupe"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="d-flex" id="placement-filter">
+                <div class="flex_center" id="filter">
+                    Filtres
+                </div>
+                <div id="filters">
+                    <a href="" class="flex_center border_filter hover_link" id="filter_eco">
+                        <div class="border_icon flex_center">
+                            <i class="fas fa-money-bill-wave-alt"></i>
+                        </div>
+                        <span>Economique</span>
+                    </a>
+                    <a href="" class="flex_center border_filter hover_link" id="filter_eco">
+                        <div class="border_icon flex_center">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <span>Familial</span>
+                    </a>
+                    <a href="" class="flex_center border_filter hover_link" id="filter_eco">
+                        <div class="border_icon flex_center">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <span>Romantique</span>
+                    </a>
+                    <a href="" class="flex_center border_filter hover_link" id="filter_eco">
+                        <div class="border_icon flex_center">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <span>Animaux autorisés</span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex wraper_info">
+                <div class="border_info" id="info_icon">
+                    <i class="fas fa-info"></i>
+                </div>
+                <div id="good_to_know">
+                    Plus de 500 logements sont disponibles dans cette ville
+                </div>
+            </div>
+            <section class="d-flex">
+        <!-- hébergements -->
+                
