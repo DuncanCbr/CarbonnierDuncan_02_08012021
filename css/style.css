@@ -374,7 +374,7 @@ aside
 {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(4,(minmax(100px)));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px 200px 200px;
     padding-top: 50px;
 
@@ -451,7 +451,7 @@ aside
     padding-left: 20px;
     font-weight: bold;
     font-size: 1.2rem;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 .title_footer
@@ -483,6 +483,12 @@ footer
 {
     padding-top: 10px;
 }
+
+#gauche
+{
+    padding-right: 50px;
+}
+
 
 @media (max-width: 1589px)
 {
@@ -568,7 +574,7 @@ footer
     {
         display: grid;
         grid-gap: 30px;
-        grid-template-columns: repeat(2,(minmax(100px)));
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 50px 200px 200px 200px;
     }
     
@@ -849,7 +855,7 @@ footer
     {
         display: grid;
         grid-gap: 30px;
-        grid-template-columns: repeat(1,(minmax(100px)));
+        grid-template-columns: 1fr;
         grid-template-rows: 50px 200px 200px 200px 200px 200px 200px;
     }
     
