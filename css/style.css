@@ -902,3 +902,37 @@ footer
     }
 }
 
+@media (max-width: 375px)
+{
+    #marge_right
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 325px)
+{
+    #padding_nav_hebergements
+    {
+        margin-left: -40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+     #padding_nav_act
+     {
+         padding-left: 30px;
+         padding-right: 40px;
+     }
+     
+     .formulaire
+     {
+         margin-left: -50px;
+     }
+
+     #search_zone
+     {
+         padding-right: 0px;
+     }
+    }
